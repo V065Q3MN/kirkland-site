@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kirkland & Co. | Real Estate Representation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-left">
+      <button class="menu-toggle" id="menuToggle">&#9776;</button>
+      <a href="#" class="logo">
+        <img src="logo.png" alt="Kirkland & Co. Logo" class="logo-img" />
+      </a>
+    </div>
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#offer">1% Offer</a>
+      <a href="#method">Our Method</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>List Your Palm Beach Home<br>For Just <span class="highlight">1%</span> Commission</h1>
+      <p>Luxury representation with an elite advantage. Limited-time offer.</p>
+      <a href="#contact" class="cta-button">Request Your Private Consultation</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Kirkland & Co.</h2>
+    <p>Kirkland & Co. is a boutique real estate firm representing luxury homeowners across Palm Beach County. We deliver bespoke strategy, market precision, and client discretion that defines the new standard of real estate representation.</p>
+  </section>
+
+  <section id="offer" class="section light-bg">
+    <h2>1% Listing Commission — Limited Time</h2>
+    <p>We are proud to offer a reduced 1% commission on new listings as part of our launch initiative. This exclusive opportunity offers homeowners substantial savings without sacrificing quality or sophistication.</p>
+  </section>
+
+  <section id="method" class="section">
+    <h2>The Kirkland Method</h2>
+    <div class="steps">
+      <div class="step"><strong>1.</strong> Private Consultation</div>
+      <div class="step"><strong>2.</strong> Custom Marketing Plan</div>
+      <div class="step"><strong>3.</strong> High-Touch Listing Process</div>
+      <div class="step"><strong>4.</strong> Strategic Negotiation & Closing</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2>Confidential Listing Consultation</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Full Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+      <input type="text" id="property" placeholder="Estimated Property Value" required />
+      <textarea id="message" placeholder="Tell us about your property" required></textarea>
+      <button type="submit">Schedule Consultation</button>
+      <p id="formStatus"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kirkland & Co. – Real Estate Representation. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
